@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigONotation", "BigONotation\BigONotation.vcxproj", "{11814746-9B07-46CC-9E3D-02AF633CEFCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Debug|x64.ActiveCfg = Debug|x64
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Debug|x64.Build.0 = Debug|x64
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Debug|x86.Build.0 = Debug|Win32
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Release|x64.ActiveCfg = Release|x64
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Release|x64.Build.0 = Release|x64
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Release|x86.ActiveCfg = Release|Win32
+		{11814746-9B07-46CC-9E3D-02AF633CEFCC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03ABF7C1-71A8-4642-86B6-3178ECFC395C}
+	EndGlobalSection
+EndGlobal
