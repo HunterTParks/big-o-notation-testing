@@ -2,6 +2,7 @@
 #include "BigONotation.h"
 #include <iostream>
 #include <string>
+#define CLOCKS_PER_MS (CLOCKS_PER_SEC / 1000)
 
 BigONotation::BigONotation(int test)
 {
@@ -35,7 +36,7 @@ void BigONotation::linearSearchForValue(int value)
 		}
 	}
 
-	duration = (clock() - start) / (double)CLOCKS_PER_SEC;
+	duration = (clock() - start) / (double)CLOCKS_PER_MS;
 
 	std::cout << "linearSearchForValue: Duration = " << duration << std::endl;
 	std::cout << "linearSearchForValue: arraySize = " << arraySize << std::endl;
